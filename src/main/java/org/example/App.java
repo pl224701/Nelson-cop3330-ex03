@@ -14,6 +14,7 @@ public class App
         String str1=sc.nextLine();
         System.out.print("Who said it? ");
         String str2=sc.nextLine();
-        System.out.printf("%s says, \"%s\"",str2,str1);
+        System.out.println(str2+ " says, "+"\""+str1+"\"");
     }
 }
+
